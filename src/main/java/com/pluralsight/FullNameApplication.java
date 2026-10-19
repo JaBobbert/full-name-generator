@@ -21,7 +21,13 @@ public class FullNameApplication {
         suffix.trim();
 
 
-        System.out.println("Full name: " + firstName + " " + middleName + " "  + lastName + ", "  + suffix);
+        if (suffix.isEmpty()){
+            System.out.println("Full name: " + firstName + " " + middleName + " "  + lastName + " "  + suffix);
+        }
+        else {
+            System.out.println("Full name: " + firstName + " " + middleName + " "  + lastName + ","  + suffix);
+        }
+
 
     }
 }
