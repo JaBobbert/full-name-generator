@@ -21,7 +21,7 @@ public class FullNameApplication {
         suffix.trim();
 
 
-        System.out.println("Full name: " + firstName + " " + middleName + " "  + lastName + ", "  + suffix);
+        System.out.println("Full name: " + firstName + "\t" + middleName + " "  + lastName + ", "  + suffix);
 
     }
 }
