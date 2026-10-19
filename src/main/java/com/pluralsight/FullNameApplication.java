@@ -25,7 +25,7 @@ public class FullNameApplication {
             System.out.println("Full name: " + firstName + " " + middleName + " "  + lastName + " "  + suffix);
         }
         else {
-            System.out.println("Full name: " + firstName + " " + middleName + " "  + lastName + ","  + suffix);
+            System.out.println("Full name: " + firstName + " " + middleName + " "  + lastName + ", "  + suffix);
         }
 
 
